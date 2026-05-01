@@ -161,3 +161,20 @@ python3 -m netspecter recon <target>
   - the resolved IP of the domain  
 - `--full` requires a valid Shodan API key  
 - Without `--full`, only basic reconnaissance modules are executed
+
+
+### Examples
+**Basic recon:**
+```bash
+python3 -m netspecter recon example.com
+```
+**Full scan with Shodan intelligence:*"
+```bash
+python3 -m netspecter recon 45.33.32.156 --full
+```
+> Shodan operates on IP addresses. If a domain does not return results, use its resolved IP address for better accuracy
+
+**Custom timeout:**
+```bash
+python -m netspecter recon example.com --timeout 10
+```
