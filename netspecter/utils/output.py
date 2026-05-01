@@ -29,8 +29,8 @@ def show(data: dict[str, object], as_json: bool = False) -> None:
     if as_json:
         safe_data = sanitize(data)
         if sys.stdout.isatty():
-            console.print_json(data=safe_data, indent=2, sort_keys=True)
+            console.print_json(data=safe_data, indent=2)
         else:
-            print(json.dumps(safe_data, indent=2, sort_keys=True))
+            print(json.dumps(safe_data, indent=2))
     else:
         console.print(Pretty(data))
