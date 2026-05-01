@@ -101,3 +101,30 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+### 5. Configure Shodan API Key
+
+Edit the configuration file:
+
+```ini
+netspecter.cfg
+```
+**Add your API key:**
+```ini
+[SHODAN]
+api_key=YOUR_API_KEY
+```
+**Important:**
+- Do NOT use single quotes `' '` or double quotes `" "` around the API key
+- Add the key directly as plain text
+
+*Correct:*
+```ini
+api_key=abc123xyz456
+```
+*Incorrect:*
+```ini
+api_key="abc123xyz456"
+```
+```ini
+api_key='abc123xyz456'
+```
