@@ -70,7 +70,7 @@ If you are unsure about the legality of your actions, **do not use this tool**.
 - Based on exposed services and vulnerabilities
 
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
