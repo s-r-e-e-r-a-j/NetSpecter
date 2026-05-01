@@ -39,7 +39,7 @@ It combines multi-source intelligence gathering (DNS, WHOIS, Web, Geo, Reverse D
   - RDP (3389)
   - MySQL (3306)
 - Identifies vulnerability presence
-- Provides OS fingerprint insights
+- Includes OS information (from Shodan intelligence)
 
 ---
 
