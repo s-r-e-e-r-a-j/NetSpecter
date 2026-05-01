@@ -128,3 +128,36 @@ api_key="abc123xyz456"
 ```ini
 api_key='abc123xyz456'
 ```
+
+## Command Line Usage
+
+NetSpecter provides a simple CLI interface.
+
+### Basic Syntax
+
+```bash
+python3 -m netspecter <command> [options]
+```
+
+### Recon Command
+Run reconnaissance on a target:
+```bash
+python3 -m netspecter recon <target>
+```
+
+### Options
+
+| Option      | Description                                      |
+|-------------|--------------------------------------------------|
+| `--full`    | Enable full intelligence scan (Shodan integration) |
+| `--timeout` | Set HTTP request timeout (default: 5 seconds)     |
+
+### Notes
+
+- `<target>` can be a domain (e.g., `example.com`) or an IP address  
+- When `--full` is used, NetSpecter attempts to resolve the domain to an IP address for Shodan lookup  
+- If Shodan intelligence is not available for a domain, try using:
+  - the direct IP address, or  
+  - the resolved IP of the domain  
+- `--full` requires a valid Shodan API key  
+- Without `--full`, only basic reconnaissance modules are executed
