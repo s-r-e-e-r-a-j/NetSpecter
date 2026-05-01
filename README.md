@@ -6,7 +6,7 @@ It combines multi-source intelligence gathering (DNS, WHOIS, Web, Geo, Reverse D
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Reconnaissance Engine
 - DNS enumeration (A, MX, NS, TXT)
