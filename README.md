@@ -6,6 +6,24 @@ It combines multi-source intelligence gathering (DNS, WHOIS, Web, Geo, Reverse D
 
 ---
 
+## Disclaimer
+
+NetSpecter is developed for **educational use** and **authorized security research** only.
+
+This tool performs reconnaissance and gathers publicly accessible intelligence from multiple sources.  
+Any use of NetSpecter against systems, networks, or domains **without explicit permission from the owner is strictly prohibited**.
+
+The author assumes **no liability and is not responsible** for any misuse, damage, or legal consequences resulting from the use of this tool.
+
+By using NetSpecter, you agree to:
+- Use it only on systems you own or are authorized to assess
+- Comply with all applicable local, national, and international laws
+- Take full responsibility for your actions
+
+If you are unsure about the legality of your actions, **do not use this tool**.
+
+---
+
 ## Features
 
 ### Reconnaissance Engine
