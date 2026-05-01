@@ -68,3 +68,36 @@ If you are unsure about the legality of your actions, **do not use this tool**.
   - HIGH
   - CRITICAL
 - Based on exposed services and vulnerabilities
+
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/s-r-e-e-r-a-j/NetSpecter.git
+````
+### 2. Navigate to the NetSpecter directory 
+```bash
+cd NetSpecter
+```
+
+### 3. Create a Virtual Environment
+```bash
+python -m venv venv
+```
+*Activate it:*
+
+**Linux / macOS**
+```bash
+source venv/bin/activate
+```
+**Windows**
+```bash
+venv\Scripts\activate
+```
+
+## 4. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
