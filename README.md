@@ -78,7 +78,7 @@ If you are unsure about the legality of your actions, **do not use this tool**.
 
 ```bash
 git clone https://github.com/s-r-e-e-r-a-j/NetSpecter.git
-````
+```
 ### 2. Navigate to the NetSpecter directory 
 ```bash
 cd NetSpecter
@@ -155,6 +155,7 @@ python3 -m netspecter recon <target>
 |-------------|--------------------------------------------------|
 | `--full`    | Enable full intelligence scan (Shodan integration) |
 | `--timeout` | Set HTTP request timeout (default: 5 seconds)     |
+| `--json`    | Output results in JSON format                     |
 
 ### Notes
 
@@ -183,7 +184,32 @@ python3 -m netspecter recon scanme.org --full
 python3 -m netspecter recon example.com --timeout 10
 ```
 
+**JSON output:**
+```bash
+python3 -m netspecter recon example.com --full --json
+```
+
+**Save JSON output to a file:**
+```bash
+python3 -m netspecter recon example.com --full --json > result.json
+```
+
 ---
+
+## Output
+
+NetSpecter supports multiple output formats:
+
+- **Default:** Pretty-printed structured output (human-readable)
+- **JSON (`--json`):**
+  - Colored JSON in terminal
+  - Clean JSON when redirected to a file
+
+Example:
+
+```bash
+python3 -m netspecter recon example.com --json > result.json
+```
 
 ## License
 This project is licensed under the MIT License.
