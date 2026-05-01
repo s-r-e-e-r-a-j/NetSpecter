@@ -168,7 +168,7 @@ python3 -m netspecter recon <target>
 ```bash
 python3 -m netspecter recon example.com
 ```
-**Full scan with Shodan intelligence:*"
+**Full scan with Shodan intelligence:**
 ```bash
 python3 -m netspecter recon 45.33.32.156 --full
 ```
