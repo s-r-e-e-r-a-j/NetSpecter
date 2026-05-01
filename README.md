@@ -99,7 +99,7 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-## 4. Install Dependencies
+### 4. Install Dependencies
 ```bash
 pip3 install -r requirements.txt
 ```
@@ -193,6 +193,7 @@ python3 -m netspecter recon example.com --full --json
 ```bash
 python3 -m netspecter recon example.com --full --json > result.json
 ```
+> Output will be saved as valid JSON in `result.json`
 
 ---
 
