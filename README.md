@@ -70,6 +70,8 @@ If you are unsure about the legality of your actions, **do not use this tool**.
 - Based on exposed services and vulnerabilities
 
 
+---
+
 ## Installation & Setup
 
 ### 1. Clone the Repository
@@ -129,6 +131,8 @@ api_key="abc123xyz456"
 api_key='abc123xyz456'
 ```
 
+--- 
+
 ## Command Line Usage
 
 NetSpecter provides a simple CLI interface.
@@ -178,3 +182,9 @@ python3 -m netspecter recon 45.33.32.156 --full
 ```bash
 python -m netspecter recon example.com --timeout 10
 ```
+
+---
+
+## License
+This project is licensed under the MIT License.
+
