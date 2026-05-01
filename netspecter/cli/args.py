@@ -22,5 +22,6 @@ Examples:
     r.add_argument("target")
     r.add_argument("--full", action="store_true")
     r.add_argument("--timeout", type=int, default=5)
+    r.add_argument("--json", action="store_true", help="output result in JSON format")
 
     return p.parse_args()

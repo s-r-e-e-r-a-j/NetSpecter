@@ -11,7 +11,7 @@ async def main() -> None:
 
     if args.cmd == "recon":
         data = await build_profile(args.target, args.full, args.timeout)
-        show(data)
+        show(data, args.json)
 
 def run() -> None:
     asyncio.run(main())
