@@ -174,7 +174,7 @@ python3 -m netspecter recon example.com
 ```
 **Full scan with Shodan intelligence:**
 ```bash
-python3 -m netspecter recon 45.33.32.156 --full
+python3 -m netspecter recon scanme.org --full
 ```
 > Shodan operates on IP addresses. If a domain does not return results, use its resolved IP address for better accuracy
 
