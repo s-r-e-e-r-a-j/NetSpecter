@@ -2,7 +2,7 @@
 
 **NetSpecter** is a lightweight yet powerful asynchronous OSINT and reconnaissance engine built in Python.  
 
-It combines multi-source intelligence gathering (DNS, WHOIS, Web, Geo, Reverse DNS) with Shodan-powered security intelligence and full raw data access, providing a complete target profile and risk assessment.
+It combines multi-source intelligence gathering (DNS, WHOIS, Web, TLS, HTTP, Geo, Reverse DNS) with Shodan-powered security intelligence and full raw data access, providing a complete target profile and risk assessment.
 
 ---
 
@@ -48,6 +48,25 @@ If you are unsure about the legality of your actions, **do not use this tool**.
 - Includes full raw Shodan API response
 - Enables advanced analysis and custom parsing
 - Preserves original data without filtering or loss
+
+---
+
+### TLS Intelligence
+- Extracts certificate subject and issuer details
+- Analyzes certificate validity period
+- Collects Subject Alternative Names (SAN)
+- Identifies certificate authority (CA)
+- Provides signals for infrastructure relationship analysis
+
+---
+
+### HTTP Fingerprinting
+- Extracts server and backend technology indicators
+- Analyzes HTTP status and redirect behavior
+- Collects security headers (HSTS, CSP, X-Frame-Options, etc.)
+- Identifies session and cookie behavior signals
+- Extracts page title information
+- Infers framework hints from response headers
 
 ---
 
